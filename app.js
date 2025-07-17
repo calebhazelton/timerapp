@@ -10,6 +10,8 @@ function appendZero(num){
         num = num.toString();
         num = "0" + num;
         return num
+    }else{
+        return num.toString()
     }
 }
 
