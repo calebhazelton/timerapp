@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <h1>Study Timer App</h1>
-    <span id="countdown">countdown</span>
-    <form>
-        <label for="minutes">Minutes:</label>
-        <input type="number" id="minutes" min="0" value="0">
+<body class="content">
+    <header id="navbar">
+        <div>
+            <h1 class="title"> Study Timer App</h1>
+        </div>
+    </header>
+    <main>
+        <span id="countdown">Set a time</span>
+        <form>
+            <label for="minutes">Minutes:</label>
+            <input type="number" id="minutes" min="0" value="0">
 
-        <label for="seconds">Seconds:</label>
-        <input type="number" id="seconds" min="0" max="59" value="0">
-    </form>
-    <button id="startStop">Start Timer</button>
-    <script src="app.js"></script>
+            <label for="seconds">Seconds:</label>
+            <input type="number" id="seconds" min="0" max="59" value="0">
+        </form>
+        <button class="button-19" id="my-button">Start Timer</button>
+        <script src="app.js" defer></script>
+    </main>
+    <footer>
+        <div id="footer">
+            <h1 class="title">Caleb Hazelton</h1>
+        </div>
+    </footer>
 </body>
 </html>

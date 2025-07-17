@@ -1,5 +1,4 @@
-#title {
-    font-size: 20px;
+.title {
     font-weight: bold;
     color: #1e90ff;
     margin: 10 px;
@@ -7,13 +6,21 @@
 }
 
 #navbar{
+    font-size: 12px;
     background-color: white;
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+}
 
-    width: 100%
-
+#footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 8px;
 }
 
 #countdown {
@@ -31,7 +38,7 @@ body {
 }
 
 #minutes, #seconds {
-width: 80px;
+width: 40px;
 padding: 8px;
 font-size: 1rem;
 text-align: center;
@@ -70,7 +77,7 @@ margin: 8px;
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 50%;
+  width: 150px
 }
 
 .button-19:after {
