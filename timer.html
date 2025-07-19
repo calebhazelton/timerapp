@@ -13,7 +13,9 @@
         </div>
     </header>
     <main>
-        <span id="countdown">Set a time</span>
+        <div id="countdown">00:00</div>
+        <button class="button-19" id="start-button">Start</button>
+        <button class="button-20" id="reset-button">Reset</button>
         <form>
             <label for="minutes">Minutes:</label>
             <input type="number" id="minutes" min="0" value="0">
@@ -21,7 +23,6 @@
             <label for="seconds">Seconds:</label>
             <input type="number" id="seconds" min="0" max="59" value="0">
         </form>
-        <button class="button-19" id="my-button">Start Timer</button>
         <script src="app.js" defer></script>
     </main>
     <footer>
