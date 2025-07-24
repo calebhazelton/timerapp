@@ -1,1 +1,3 @@
 This is my first website, a simple timer app that the user can enter their time, in minutes and seconds, and a countdown timer will start.  The timer can be paused and reset.
+
+The app is built with an HTML file, CSS file, and plain JavaScript file.  It is to represent the base level website, built with no additional frameworks or libraries.  This is the starting knowledge to build off of for web development.

@@ -24,7 +24,11 @@
 }
 
 #countdown {
-    font-size: 300px;
+    font-size: clamp(50px, 30vw, 300px);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .content {
